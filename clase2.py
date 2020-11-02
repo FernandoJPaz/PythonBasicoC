@@ -108,9 +108,10 @@ print(y , x , z)
 #Las variables que se crean fuera de una función (como en todos los ejemplos anteriores) se conocen como variables globales.
 #Todo el mundo puede utilizar las variables globales, tanto dentro como fuera de las funciones
 
-
-
+#Declaracion un Metodo 
 def myfunc():
-  print( vglobal )
+    #imprimir la variable global
+    print( vglobal )
 
+#Forma de ejecutar mi metodo
 myfunc()
