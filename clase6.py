@@ -1,16 +1,25 @@
 #Crear una clase
 class MyClass:
 
-  edad = 50
-
+  edad = 5
+  
+  #def imprimirEdad( i )
   def ImprimirEdad(edad):
     print(edad)
 
 #Crear objeto
 # MyClass c = new MyClass() ---  JAVA
+# Todos los atributos y metodos los va tener (C)
+
+#nombreVariable  
 p1 = MyClass()
 print(p1.edad)
 
+miObjeto = MyClass()
+miObjeto.edad = 1000
+print("Mi edad es", miObjeto.edad)
+
+# JAVA
 # public void myMetodo(name , age){
 # 
 # }
@@ -23,8 +32,15 @@ class Person:
 
 p1 = Person("John", 36)
 
+p2 = Person ("Fernando jose Paz", 24)
+
 print(p1.name)
 print(p1.age)
+
+print("----")
+
+print(p2.name)
+print(p2.age)
 
 #Métodos de objetos
 class Person:
@@ -57,3 +73,5 @@ p1.age = 40
 
 #Eliminar propiedades de objeto
 del p1.age
+
+del p1 

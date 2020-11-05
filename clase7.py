@@ -13,7 +13,7 @@ x.printname()
 
 #Crear una clase secundaria
 class Student(Person):
-  pass
+  pass #palabra reservada que funciona cuando no deseo agregar mas atributos o metodos
 
 '''
 
@@ -22,6 +22,7 @@ class Student(Person):
       print("Usted Aprobo")
       else:
         print("Usted Reprobo")
+        
 '''
 y = Student("Student", "Clase Estudiante" )
 y.printname()

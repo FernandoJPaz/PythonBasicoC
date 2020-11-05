@@ -9,6 +9,9 @@ i = 1
 while i < 10:
   print(i)
   i += 1
+  #Aumentar variable
+  #i = i +1 
+  #i++
 print("Fin Primer Ejemplo")
 
 #The break Statement
@@ -37,3 +40,15 @@ while i < 6:
   i += 1
 else:
   print("i is no longer less than 6")
+
+
+#Tablas de Multiplicar 
+i= 9
+j = 1
+while j < 10 :
+  print(i * j)
+  j += 1
+
+
+
+
