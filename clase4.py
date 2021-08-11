@@ -1,8 +1,26 @@
-#Python For Loops
-fruits = ["apple", "banana", "cherry"]
+''' - Java - C# - C++
+for (int i=0; i < 10 ; i++){
 
-for x in fruits:
-  print(x)
+  //declareaciones o bloques de codigo
+
+}
+'''
+
+#Sintaxis
+#for objetoiterativo in secuencia : 
+#  declaraciones (ifs , fors , while , metodos o funciones) 
+
+#Pasos
+# 1. for 
+# 2. variable que va manejar las iteraciones 
+# 3. secuencia a iterar o recorrer
+# 4. el area declaracion, donde vamos a manejar cada elemento de la secuencio   
+
+#Python For Loops
+fruits = ["apple", "banana", "cherry", "watermelon", "berry", "peach", "lemon"]
+
+for fruit in fruits:
+  print("Hola ", fruit)
   
 
 #Looping Through a String
@@ -15,10 +33,10 @@ fruits = ["apple" , "cherry","banana","apple1", "banana1", "cherry1" ]
 for x in fruits:
     print(x)
     if x == "banana": 
-        break
+      break
 
 
-print("------ 1")
+print("------")
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   if x == "banana":
@@ -27,6 +45,7 @@ for x in fruits:
 
 
 #The continue Statement
+print("The continue Statement")
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   if x == "banana":
@@ -42,7 +61,7 @@ for x in range(6):
 for x in range(2, 6):
   print(x)
 
-
+print("range con 3 parametros")
 for x in range(2, 30, 3):
   print(x)
 
@@ -60,4 +79,10 @@ fruits = ["apple", "banana", "cherry"]
 
 for x in adj:
     for y in fruits:
-        print(x, y)
+      print(x, y)
+
+#Contador De forma descendete 
+num = 10
+for i in range(1,num+1):
+  print(num-i)
+

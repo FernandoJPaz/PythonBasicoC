@@ -51,6 +51,7 @@ class Student(Person):
 class Student(Person):
   def __init__(self, fname, lname, year):
     super().__init__(fname, lname)
+    
     self.graduationyear = year
     print(self.firstname, self.lastname,self.graduationyear)
 

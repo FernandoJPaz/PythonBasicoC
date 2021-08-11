@@ -1,26 +1,32 @@
+#sintaxis 
+# class IdentificadorClase :
+# Atributos 
+# Metodos / Funciones 
+
 #Crear una clase
 class MyClass:
 
-  edad = 5
-  
-  #def imprimirEdad( i )
+#Atributos de myclase
+  edad = 18
+
+#Operaciones(Metodos/Funciones) de myclase 
   def ImprimirEdad(edad):
     print(edad)
 
 #Crear objeto
-# MyClass c = new MyClass() ---  JAVA
+#MyClass c = new MyClass() ---  JAVA
 # Todos los atributos y metodos los va tener (C)
-
+ 
 #nombreVariable  
-p1 = MyClass()
-print(p1.edad)
+clase1 = MyClass() 
+print("La edad de myclass es: ", clase1.edad)
 
 miObjeto = MyClass()
 miObjeto.edad = 1000
 print("Mi edad es", miObjeto.edad)
 
 # JAVA
-# public void myMetodo(name , age){
+# public void myMetodo(string name , int age){
 # 
 # }
 
@@ -32,7 +38,7 @@ class Person:
 
 p1 = Person("John", 36)
 
-p2 = Person ("Fernando jose Paz", 24)
+p2 = Person("Fernando jose Paz", 24)
 
 print(p1.name)
 print(p1.age)
@@ -62,8 +68,8 @@ class Person:
     mysillyobject.name = name
     mysillyobject.age = age
 
-  def myfunc(abc):
-    print("Hello my name is " + abc.name)
+  def myfunc(cualquierparametro):
+    print("Hello my name is " + cualquierparametro.name)
 
 p1 = Person("Curso de Python", 36)
 p1.myfunc()
